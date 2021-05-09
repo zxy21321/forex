@@ -1,0 +1,204 @@
+/**
+Theme Name: Axi Child Theme
+Author: Axi
+Author URI: https://axi.com
+Description: Astra is the fastest, fully customizable & beautiful theme suitable for blogs, personal portfolios and business websites. It is very lightweight (less than 50KB on frontend) and offers unparalleled speed. Built with SEO in mind, Astra comes with schema.org code integrated so search engines will love your site. Astra offers plenty of sidebar options and widget areas giving you a full control for customizations. Furthermore, we have included special features and templates so feel free to choose any of your favorite page builder plugin to create pages flexibly. Some of the other features: # WooCommerce Ready # Responsive # Compatible with major plugins # Translation Ready # Extendible with premium addons # Regularly updated # Designed, Developed, Maintained & Supported by Brainstorm Force. Looking for a perfect base theme? Look no further. Astra is fast, fully customizable and beautiful theme!
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: axi-child-theme
+Template: astra
+*/
+form.axi-form {
+  color: #2F2C2B;
+  text-align: left;
+	padding-bottom: 30px;
+	border-radius: 5px;
+	box-shadow: 0 0 0 rgba(158, 154, 154, 0.34);
+}
+h3.axi-form-heading {
+  color: #2F2C2B;
+  font-family: "Caros Soft", Sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 30px;
+  margin-bottom:0;
+  padding: 15px 20px;
+	text-align: center;
+}
+.axi-form-group {
+  padding: 5px 20px;
+}
+.axi-form label,form.short-form label{
+  font-weight: normal;
+  font-size: 12px;
+	line-height: 18px;
+}
+.axi-form .axi-form-group:not(.axi-checkbox) label, form.short-form label.field-label {
+  display: none;
+}
+.axi-form input[type=email], .axi-form input[type=number], .axi-form input[type=password], .axi-form input[type=reset], .axi-form input[type=search], .axi-form input[type=tel], .axi-form input[type=text],.axi-form input[type=url], .axi-form select, .axi-form textarea,
+form.short-form input[type=email], form.short-form input[type=number], form.short-form input[type=password], form.short-form input[type=reset], form.short-form input[type=search], form.short-form input[type=tel], form.short-form input[type=text],form.short-form input[type=url], form.short-form select, form.short-form textarea
+{
+	width: 100%;
+	height: 35px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+	outline: none!important;
+	background: #fff;
+	font-size: 13px;
+}
+form.short-form input[type=email], form.short-form input[type=number], form.short-form input[type=password], form.short-form input[type=reset], form.short-form input[type=search], form.short-form input[type=tel], form.short-form input[type=text],form.short-form input[type=url], form.short-form select, form.short-form textarea{
+	border:0;
+	background: rgba(0,0,0,0.1);
+	color: rgba(255,255,255,0.8);
+	border: 1px solid rgba(0,0,0,0.1);
+}
+form.short-form input[type=email]::-webkit-input-placeholder,form.short-form input[type=text]::-webkit-input-placeholder,form.short-form textarea::-webkit-input-placeholder {
+  color: rgba(255,255,255,0.8);
+}
+form.short-form input[type=email]:-ms-input-placeholder,form.short-form input[type=text]:-ms-input-placeholder,form.short-form textarea:-ms-input-placeholder {
+  color: rgba(255,255,255,0.8);
+}
+form.short-form input[type=email]::placeholder,form.short-form input[type=text]::placeholder,form.short-form textarea::placeholder {
+  color: rgba(255,255,255,0.8);
+}
+.axi-phone-group .axi-phone-type,.phone-group select.phoneType {
+    float: left;
+    width: 30%;
+}
+.axi-phone-group .axi-phone,.phone-group input#phone {
+    float: left;
+    width: 69%;
+    margin-left: 1%;
+}
+.axi-form select,form.short-form select {
+  margin: 0;      
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background-image:
+    linear-gradient(45deg, transparent 50%, gray 50%),
+    linear-gradient(135deg, gray 50%, transparent 50%),
+    linear-gradient(to right, #ccc, #ccc);
+  background-position:
+    calc(100% - 20px) calc(1em + 2px),
+    calc(100% - 15px) calc(1em + 2px),
+    calc(100% - 2.5em) 0.5em;
+  background-size:
+    5px 5px,
+    5px 5px,
+    1px 1.5em;
+  background-repeat: no-repeat;
+}
+.axi-form select:-moz-focusring,form.short-form select:-moz-focusring {
+  color: transparent;
+  text-shadow: 0 0 0 #000;
+}
+.axi-form input[type="submit"] {
+  margin: 20px;
+  font-size: 14px!important;
+  padding: 15px 40px!important;
+}
+.axi-form input[type="submit"] {
+    margin: 20px 0 0 20px;
+    font-size: 14px!important;
+    padding: 15px 40px!important;
+}
+.axi-form-group.axi-checkbox input[type="checkbox"],.checkbox-row  input[type="checkbox"]{
+  opacity: 0;
+  position: absolute;
+}
+.axi-form-group.axi-checkbox label ,.checkbox-row label{
+  position: relative;
+  padding-left: 25px;
+}
+.axi-form-group.axi-checkbox label::before,.checkbox-row label::before {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  left: 0;
+	top:3px;
+  border: 1px solid #FC404D;
+  border-radius: 3px;
+  background-color: #fff;
+  -webkit-transition: border 0.15s ease-in-out, color 0.15s ease-in-out;
+  -o-transition: border 0.15s ease-in-out, color 0.15s ease-in-out;
+  transition: border 0.15s ease-in-out, color 0.15s ease-in-out;
+}
+.axi-form-group.axi-checkbox label::after,.checkbox-row label::after {
+    display: inline-block;
+    position: absolute;
+    width: 11px;
+    height: 6px;
+    left: 23px;
+    top: 9px;
+    margin-left: -18px;
+    padding-left: 3px;
+    padding-top: 1px;
+}
+.axi-form-group.axi-checkbox input[type="checkbox"]:checked + label::after,.checkbox-row input[type="checkbox"]:checked + label::after {
+  content: '';
+  border: 2px solid #FC404D;
+  border-top: none;
+  border-right: none;
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+.axi-form-group.axi-checkbox input[type="checkbox"]:disabled + label,.checkbox-row input[type="checkbox"]:disabled + label {
+  opacity: 0.65;
+}
+.axi-form-group.axi-checkbox input[type="checkbox"]:disabled + label::before,.checkbox-row input[type="checkbox"]:disabled + label::before {
+  background-color: #eeeeee;
+  cursor: not-allowed;
+}
+.axi-phone-type {
+    margin-bottom: 10px;
+}
+.axi-validation-error {
+    background-color: transparent!important;
+    border: 0!important;
+    padding: 0 0 0 2px!important;
+}
+form.short-form .field-item{
+	width:50%;
+	float:left;
+	margin-bottom:8px;
+	padding-right:8px;
+}
+form.short-form .field-item.nextline {
+	clear: both;
+}
+form.short-form .field-item.checkbox-row {
+	margin-bottom: 15px;
+}
+.checkbox-row label::before{top:0;border:1px solid rgba(0,0,0,0.1);background-color: rgba(0,0,0,0.1);}
+.checkbox-row label::after{top:5px;}
+.checkbox-row input[type="checkbox"]:checked + label::after{border: 2px solid #272727;border-top: none;border-right: none;}
+form.short-form .checkbox-row.padded-row {
+    margin-bottom: 15px;
+}
+form.short-form .badge-container {
+	margin-top: 20px
+}
+form.short-form .action-row button {
+	background-color: #EFEAE3;
+	color: #282424;	
+}
+form.short-form .action-row button:hover {
+	background-color: #EFEAE3;
+	color: #282424;	
+}
+@media (max-width:768px) {
+	form.short-form .field-item{width:100%;}
+}
+@media (max-width:640px) {
+	.axi-form select, form.short-form select{
+		background-size: 5px 5px, 5px 5px, 0px 1.5em;
+	}
+	
+}

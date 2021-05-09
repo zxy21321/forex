@@ -1,0 +1,109 @@
+#lean_overlay {
+    position: fixed;
+    z-index: 10000;
+    top: 0px;
+    left: 0px;
+    height:100%;
+    width:100%;
+    background: #000;
+    display: none;
+}
+
+#tour-introtop {
+    width: 100%; /*210 to 269*/
+    background-color: #2A2F35; 
+}
+#tour-introbottom {
+    width: 639px;
+    color: white;  
+    background-color: #2A2F35; 
+    min-height: 75px; /*was 140*/
+    text-align: center;
+    font-size: 16px;
+    padding: 30px;
+}
+
+#tour-container {
+    width: 699px;
+    display:none;
+    background: #FFF;
+}
+#tour-left {
+    float: left; 
+    color: black; 
+    width:466px;
+    min-height: 350px;
+            
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+#tour-left> div {
+    text-align: center;
+    overflow: hidden;
+    padding-top: 10px;
+}
+
+
+
+#tour-content {
+    color: white;  
+    background-color: #2A2F35; 
+    width: 233px; 
+    min-height: 338px; 
+    margin-left: 466px; 
+
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#tour-content>div {
+    padding: 23px;
+    font-size: 18px;
+    text-align: center;
+}
+
+
+#tour-footer {
+    background-color: #2A2F35; 
+    width: 233px;
+    margin-left: 466px;
+    color: white;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.tour_close_btn {
+    position:absolute; 
+    top:0; 
+    right:3px; 
+    color:white;
+}
+
+.tour_close_btn:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+
+
+/* RESPONSIVE */
+
+/* Mobile Layout: 320px.  */
+@media screen and (max-width: 750px), screen and (-webkit-min-device-pixel-ratio: 2) {
+
+    #btnTour {
+        display: none !important;
+    }
+}

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="31px" height="29px" viewBox="0 0 31 29" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>Icons-24</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Icons-24" transform="translate(-9.000000, -7.000000)">
+            <g id="Group" transform="translate(10.000000, 8.000000)">
+                <line x1="13.994" y1="15.922" x2="4.266" y2="4.422" id="Path" stroke="#F0EBE3"></line>
+                <line x1="13.994" y1="15.922" x2="18.615" y2="5.292" id="Path" stroke="#F0EBE3"></line>
+                <line x1="13.994" y1="15.922" x2="25.771" y2="22.955" id="Path" stroke="#F0EBE3"></line>
+                <line x1="13.994" y1="15.922" x2="6.994" y2="24.818" id="Path" stroke="#F0EBE3"></line>
+                <circle id="Oval" fill="#2F2C2B" fill-rule="nonzero" cx="13.994" cy="15.922" r="3.994"></circle>
+                <circle id="Oval" stroke="#F0EBE3" fill="#FEB3B8" fill-rule="nonzero" cx="18.615" cy="5.293" r="1.741"></circle>
+                <circle id="Oval" stroke="#F0EBE3" fill="#FEB3B8" fill-rule="nonzero" cx="25.771" cy="22.954" r="3.04"></circle>
+                <circle id="Oval" stroke="#F0EBE3" fill="#FEB3B8" fill-rule="nonzero" cx="4.266" cy="4.422" r="3.928"></circle>
+                <circle id="Oval" stroke="#F0EBE3" fill="#FEB3B8" fill-rule="nonzero" cx="6.994" cy="24.818" r="2.063"></circle>
+            </g>
+        </g>
+    </g>
+</svg>

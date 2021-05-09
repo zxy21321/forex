@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="99px" height="99px" viewBox="0 0 99 99" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>Group 4</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="DESKTOP_MODULES" transform="translate(-404.000000, -4477.000000)">
+            <g id="INDICES-ICON" transform="translate(365.000000, 4477.000000)">
+                <g id="Group-4" transform="translate(39.000000, 0.000000)">
+                    <g id="BACKGROUND" fill-rule="nonzero">
+                        <circle id="Oval" fill="#FC404D" cx="48.9795918" cy="48.9795918" r="48.9795918"></circle>
+                        <path d="M79.1428571,10.4081633 L61.5102041,32.9795918 L46.4489796,52.2653061 L18.8367347,87.5714286 C32.5808869,98.8278951 51.3427044,101.759656 67.8657157,95.2327993 C84.388727,88.7059429 96.0821855,73.743856 98.4234352,56.1333958 C100.764685,38.5229356 93.3866264,21.0253566 79.1428571,10.4081633 Z" id="Path" fill="#D11C36"></path>
+                    </g>
+                    <g id="CONTENT" transform="translate(20.408163, 24.489796)">
+                        <rect id="Rectangle" fill="#EFEAE2" fill-rule="nonzero" x="1.16326531" y="1.6122449" width="54.8163265" height="45.6938776" rx="0.5"></rect>
+                        <line x1="23.7755102" y1="22.9387755" x2="9.04081633" y2="41.7959184" id="Path" stroke="#FEB3B8"></line>
+                        <line x1="48.2244898" y1="16.5102041" x2="33.4897959" y2="35.3673469" id="Path" stroke="#FEB3B8"></line>
+                        <line x1="23.7755102" y1="22.9387755" x2="33.4693878" y2="35.3469388" id="Path" stroke="#FEB3B8"></line>
+                        <circle id="Oval" fill="#FC404D" fill-rule="nonzero" cx="9.04081633" cy="41.7959184" r="2.89795918"></circle>
+                        <circle id="Oval" fill="#FC404D" fill-rule="nonzero" cx="33.4897959" cy="35.3673469" r="2.89795918"></circle>
+                        <circle id="Oval" fill="#FC404D" fill-rule="nonzero" cx="23.7755102" cy="22.9387755" r="2.89795918"></circle>
+                        <circle id="Oval" fill="#FC404D" fill-rule="nonzero" cx="48.1632653" cy="16.5714286" r="2.89795918"></circle>
+                        <path d="M55.9795918,2.63265306 C55.9795918,2.06909719 55.5227395,1.6122449 54.9591837,1.6122449 L2.18367347,1.6122449 C1.6201176,1.6122449 1.16326531,2.06909719 1.16326531,2.63265306 L1.16326531,10.7959184 L55.9795918,10.7959184 L55.9795918,2.63265306 Z" id="Path" fill="#282424" fill-rule="nonzero"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

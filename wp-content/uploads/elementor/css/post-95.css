@@ -1,0 +1,29 @@
+.elementor-kit-95{--e-global-color-primary:#FC404D;--e-global-color-secondary:#282424;--e-global-color-text:#282424;--e-global-color-accent:#61CE70;--e-global-color-7a6defe5:#FFF;--e-global-color-7a46f22:#D11C36;--e-global-color-1519066c:#FC404D;--e-global-color-3d4fa1a1:#F0EBE3;--e-global-color-638b46c1:#FCD758;--e-global-color-d07bac9:#F9B4A8;--e-global-color-e63a114:#2C4D5A;--e-global-color-8bf0845:#A4D866;--e-global-color-75c6da1:#282424;--e-global-color-378280f:#45C2C7;--e-global-color-4de92c5:#6CADDF;--e-global-color-413dab8:#00275D;--e-global-typography-primary-font-family:"Caros Soft";--e-global-typography-primary-font-weight:600;--e-global-typography-secondary-font-family:"Caros Soft";--e-global-typography-secondary-font-weight:400;--e-global-typography-text-font-family:"Caros Soft";--e-global-typography-text-font-weight:400;--e-global-typography-accent-font-family:"Caros Soft";--e-global-typography-accent-font-weight:500;color:#2F2C2B;font-family:"Caros Soft", Sans-serif;font-size:18px;line-height:24px;}.elementor-kit-95 h1{color:#2F2C2B;font-family:"Caros Soft", Sans-serif;font-size:60px;font-weight:600;}.elementor-kit-95 h2{color:#2F2C2B;font-family:"Caros Soft", Sans-serif;font-size:40px;font-weight:600;}.elementor-kit-95 button,.elementor-kit-95 input[type="button"],.elementor-kit-95 input[type="submit"],.elementor-kit-95 .elementor-button{font-family:"Caros Soft", Sans-serif;font-size:12px;font-weight:500;text-transform:uppercase;color:#F0EBE3;background-color:#FC404D;border-radius:3px 3px 3px 3px;padding:14px 30px 14px 30px;}.elementor-section.elementor-section-boxed > .elementor-container{max-width:1140px;}.elementor-widget:not(:last-child){margin-bottom:20px;}{}h1.entry-title{display:var(--page-title-display);}@media(max-width:1024px){.elementor-section.elementor-section-boxed > .elementor-container{max-width:1025px;}}@media(max-width:767px){.elementor-section.elementor-section-boxed > .elementor-container{max-width:768px;}}/* Start Custom Fonts CSS */@font-face {
+	font-family: 'Caros Soft';
+	font-style: normal;
+	font-weight: 400;
+	font-display: auto;
+	src: url('../../../../fonts/CarosSoftRegular.woff') format('woff');
+}
+@font-face {
+	font-family: 'Caros Soft';
+	font-style: normal;
+	font-weight: 300;
+	font-display: auto;
+	src: url('../../../../fonts/CarosSoftRegular.woff') format('woff');
+}
+@font-face {
+	font-family: 'Caros Soft';
+	font-style: normal;
+	font-weight: 500;
+	font-display: auto;
+	src: url('../../../../fonts/CarosSoftMedium.woff') format('woff');
+}
+@font-face {
+	font-family: 'Caros Soft';
+	font-style: normal;
+	font-weight: 600;
+	font-display: auto;
+	src: url('../../../../fonts/CarosSoftBold.woff') format('woff');
+}
+/* End Custom Fonts CSS */
