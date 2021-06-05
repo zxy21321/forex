@@ -744,7 +744,7 @@ table.download_table>tbody>tr>td { }
 
 
 .icon-psyquation {
-    background: url("https://clientportal.youraxi.com/App_Themes/AxiTrader/images/psyquation-icon-link.svg") no-repeat scroll left center rgba(0, 0, 0, 0);
+    background: url("https://clientportal.youraxi.com/App_Themes/RUITONGTrader/images/psyquation-icon-link.svg") no-repeat scroll left center rgba(0, 0, 0, 0);
     height: 18px;
     width: 18px;
 }
@@ -807,7 +807,7 @@ table.download_table>tbody>tr>td { }
 
 
 .menu_top_logo {
-    background: url("images/Axi_Logo_MT4_Trade_Your_Edge.svg") no-repeat scroll center rgba(0, 0, 0, 0);
+    background: url("images/RUITONG_Logo_MT4_Trade_Your_Edge.svg") no-repeat scroll center rgba(0, 0, 0, 0);
     background-size: contain;
     padding: 10px 0;
     margin-top: 45px;
@@ -823,7 +823,7 @@ table.download_table>tbody>tr>td { }
     height: 90px;
     background: url("images/50px_axi.svg") no-repeat scroll left center;
     background-size: 140px;*/
-    background: url("images/Axi_Logo_MT4_Trade_Your_Edge.svg") no-repeat scroll center rgba(0, 0, 0, 0);
+    background: url("images/RUITONG_Logo_MT4_Trade_Your_Edge.svg") no-repeat scroll center rgba(0, 0, 0, 0);
     background-size: contain;
     padding: 10px 0;
     margin-top: 45px;
@@ -837,7 +837,7 @@ table.download_table>tbody>tr>td { }
     margin-right: 18px;
     height: 276px;
     width: 260px;
-    background: url("images/big_AxiLogo.svg") no-repeat scroll left center rgba(0, 0, 0, 0);
+    background: url("images/big_RUITONGLogo.svg") no-repeat scroll left center rgba(0, 0, 0, 0);
     position: absolute;
     bottom: 0px;
 }

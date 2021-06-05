@@ -123,7 +123,7 @@
         }
        
     </style>
-<link href="App_Themes/AxiTrader/AxiTrader.css" type="text/css" rel="stylesheet"><link href="App_Themes/AxiTrader/AxiTrader-rtl.css" type="text/css" rel="stylesheet"></head>
+<link href="App_Themes/RUITONGTrader/RUITONGTrader.css" type="text/css" rel="stylesheet"><link href="App_Themes/RUITONGTrader/RUITONGTrader-rtl.css" type="text/css" rel="stylesheet"></head>
 <body id="body" data-loading="true" class="ltr " loggedin="false">
     <form method="post" action="Authenticate.aspx?Redirect=%2fdownload-platform.aspx" onsubmit="javascript:return WebForm_OnSubmit();" id="FormMain">
 <div class="aspNetHidden">
@@ -181,7 +181,7 @@ return true;
                 <br>
                 <br>
 
-                There is an RT announcement due to a market event/incident, please <a target="_blank" href="javascript:;">click here</a> for more details.<br>
+                There is an RUITONG announcement due to a market event/incident, please <a target="_blank" href="javascript:;">click here</a> for more details.<br>
                 <br>
 
                 Should you require assistance, please contact our <a href="javascript:;" target="_blank">Client Services Team.</a><br>
@@ -319,8 +319,8 @@ return true;
       <div class="intro">
           <div class="header-image"></div>
           <div class="intro-content">
-              <h2>欢迎使用新的Axi客户门户！</h2>
-<p>我们已经听取了客户的反馈并进行了重大更改，以使您更轻松地管理Axi交易帐户。</p>
+              <h2>欢迎使用新的RUITONG客户门户！</h2>
+<p>我们已经听取了客户的反馈并进行了重大更改，以使您更轻松地管理RUITONG交易帐户。</p>
               
               <div class="flex xs-flex-row">
                 <button onclick="tour.start()" type="button" class="btn btn-primary">快速浏览</button>
@@ -359,7 +359,7 @@ return true;
                   <div class="scroller">
                       <div class="slide">
                           <h2> 1/5：我的帐户</h2> 
- <p>在这里，您将找到所有Live Axi交易帐户的详细信息以及各种操作，例如： </p> 
+ <p>在这里，您将找到所有Live RUITONG交易帐户的详细信息以及各种操作，例如： </p> 
 
  <ul> 
  <li>更改您的MT4密码； </li> 
@@ -386,7 +386,7 @@ return true;
                       </div>
                       <div class="slide">
                           <h2> 5/5：您想与我们分享任何评论吗？</h2>
-<p>通过marketing@axi.com向我们发送电子邮件，我们一直在努力改进并欢迎您的反馈。</p>
+<p>通过marketing@rt-trader.com向我们发送电子邮件，我们一直在努力改进并欢迎您的反馈。</p>
                       </div>
                   </div>
 
@@ -662,7 +662,7 @@ return true;
                     <div class="col-md-12 order-md-1 col-xl-6 order-xl-2 mt-2 mt-sm-0">
                         <div class="row auth_instruction">
                             <div class="info-quote">
-                               要登录客户门户，请使用您的任何Axi Live MT4帐户登录名和密码。
+                               要登录客户门户，请使用您的任何RUITONG Live MT4帐户登录名和密码。
                                  
                             </div>
                         </div>
@@ -712,10 +712,10 @@ return true;
                         <br>
                         <br>                   
                         <div class="auth_link_span">
-                            <span id="litVisitorText" class="strong_label">不是Axi客户？</span><br>
+                            <span id="litVisitorText" class="strong_label">不是RUITONG客户？</span><br>
                         </div>                       
                         <div class="auth_link_span">
-                            <a id="hlOpenAnAccount" href="javascript:;">现在打开Axi账户。</a>        
+                            <a id="hlOpenAnAccount" href="javascript:;">现在打开RUITONG账户。</a>        
                         </div>                    
                     </div>
                 </div>
@@ -758,7 +758,7 @@ return true;
 
             
             <!--
-                We’ve been making some important enhancements behind the scene which means the AxiTrader client portal
+                We’ve been making some important enhancements behind the scene which means the RUITONGTrader client portal
                 will be unavailable for approximately an hour from 1pm Sydney AEST (Dubai 7am London 4am BST). <br/>
                 If you need to fund during this time, please contact our client services team below.<br/><br/>
                 -->
@@ -944,10 +944,10 @@ function ValidatorOnSubmit() {
         
         if (isRtl) {
             console.log("Switching to rtl. Removing ltr css");
-            $('link[href$="/AxiTrader.css"]').remove();
+            $('link[href$="/RUITONGTrader.css"]').remove();
         }
         else {
-            $('link[href$="/AxiTrader-rtl.css"]').remove();
+            $('link[href$="/RUITONGTrader-rtl.css"]').remove();
         }
 
         $("body").removeAttr("data-loading");
@@ -955,7 +955,7 @@ function ValidatorOnSubmit() {
         //### ARABIC RTL TEST
         if (is_arabic($('#lbl_currentLang').text())) {
             $(document.body).addClass('rtl').removeClass('ltr');
-            $('head').append('<link rel="stylesheet" href="/css/AxiTrader_RTL_Overrides.css" type="text/css" />');
+            $('head').append('<link rel="stylesheet" href="/css/RUITONGTrader_RTL_Overrides.css" type="text/css" />');
         } else {
             $(document.body).removeClass('rtl').addClass('ltr');
         }

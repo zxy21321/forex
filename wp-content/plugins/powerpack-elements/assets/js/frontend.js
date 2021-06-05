@@ -631,7 +631,7 @@
 
         if ( $tilt_enable === 'yes' ) {
             $( $gallery ).find('.pp-image-gallery-thumbnail-wrap').tilt({
-                disableAxis: settings.tilt_axis,
+                disableRUITONGs: settings.tilt_axis,
                 maxTilt: settings.tilt_amount,
                 scale: settings.tilt_scale,
                 speed: settings.tilt_speed,
@@ -755,7 +755,7 @@
                 
                 if ( $tilt_enable === 'yes' ) {
                     $( $gallery ).find('.pp-grid-item').tilt({
-                        disableAxis: settings.tilt_axis,
+                        disableRUITONGs: settings.tilt_axis,
                         maxTilt: settings.tilt_amount,
                         scale: settings.tilt_scale,
                         speed: settings.tilt_speed
