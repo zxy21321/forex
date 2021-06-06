@@ -6921,7 +6921,7 @@ $.widget("ui.resizable", $.ui.mouse, {
 
 		}
 
-		this._renderRUITONGs = function(target) {
+		this._renderRTs = function(target) {
 
 			var i, axis, padPos, padWrapper;
 
@@ -6957,8 +6957,8 @@ $.widget("ui.resizable", $.ui.mouse, {
 			}
 		};
 
-		// TODO: make renderRUITONGs a prototype function
-		this._renderRUITONGs(this.element);
+		// TODO: make renderRTs a prototype function
+		this._renderRTs(this.element);
 
 		this._handles = $(".ui-resizable-handle", this.element)
 			.disableSelection();
@@ -8835,7 +8835,7 @@ $.widget( "ui.droppable", {
 });
 
 $.ui.intersect = (function() {
-	function isOverRUITONGs( x, reference, size ) {
+	function isOverRTs( x, reference, size ) {
 		return ( x >= reference ) && ( x < ( reference + size ) );
 	}
 
@@ -8866,7 +8866,7 @@ $.ui.intersect = (function() {
 		case "pointer":
 			draggableLeft = ( ( draggable.positionAbs || draggable.position.absolute ).left + ( draggable.clickOffset || draggable.offset.click ).left );
 			draggableTop = ( ( draggable.positionAbs || draggable.position.absolute ).top + ( draggable.clickOffset || draggable.offset.click ).top );
-			return isOverRUITONGs( draggableTop, t, droppable.proportions().height ) && isOverRUITONGs( draggableLeft, l, droppable.proportions().width );
+			return isOverRTs( draggableTop, t, droppable.proportions().height ) && isOverRTs( draggableLeft, l, droppable.proportions().width );
 		case "touch":
 			return (
 				( y1 >= t && y1 <= b ) || // Top edge touching
@@ -13126,7 +13126,7 @@ var sortable = $.widget("ui.sortable", $.ui.mouse, {
 		update: null
 	},
 
-	_isOverRUITONGs: function( x, reference, size ) {
+	_isOverRTs: function( x, reference, size ) {
 		return ( x >= reference ) && ( x < ( reference + size ) );
 	},
 
@@ -13644,8 +13644,8 @@ var sortable = $.widget("ui.sortable", $.ui.mouse, {
 
 	_intersectsWithPointer: function(item) {
 
-		var isOverElementHeight = (this.options.axis === "x") || this._isOverRUITONGs(this.positionAbs.top + this.offset.click.top, item.top, item.height),
-			isOverElementWidth = (this.options.axis === "y") || this._isOverRUITONGs(this.positionAbs.left + this.offset.click.left, item.left, item.width),
+		var isOverElementHeight = (this.options.axis === "x") || this._isOverRTs(this.positionAbs.top + this.offset.click.top, item.top, item.height),
+			isOverElementWidth = (this.options.axis === "y") || this._isOverRTs(this.positionAbs.left + this.offset.click.left, item.left, item.width),
 			isOverElement = isOverElementHeight && isOverElementWidth,
 			verticalDirection = this._getDragVerticalDirection(),
 			horizontalDirection = this._getDragHorizontalDirection();
@@ -13662,8 +13662,8 @@ var sortable = $.widget("ui.sortable", $.ui.mouse, {
 
 	_intersectsWithSides: function(item) {
 
-		var isOverBottomHalf = this._isOverRUITONGs(this.positionAbs.top + this.offset.click.top, item.top + (item.height/2), item.height),
-			isOverRightHalf = this._isOverRUITONGs(this.positionAbs.left + this.offset.click.left, item.left + (item.width/2), item.width),
+		var isOverBottomHalf = this._isOverRTs(this.positionAbs.top + this.offset.click.top, item.top + (item.height/2), item.height),
+			isOverRightHalf = this._isOverRTs(this.positionAbs.left + this.offset.click.left, item.left + (item.width/2), item.width),
 			verticalDirection = this._getDragVerticalDirection(),
 			horizontalDirection = this._getDragHorizontalDirection();
 

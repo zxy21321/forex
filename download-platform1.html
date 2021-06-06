@@ -123,7 +123,7 @@
         }
        
     </style>
-<link href="App_Themes/RUITONGTrader/RUITONGTrader.css" type="text/css" rel="stylesheet"><link href="App_Themes/RUITONGTrader/RUITONGTrader-rtl.css" type="text/css" rel="stylesheet"></head>
+<link href="App_Themes/RTTrader/RTTrader.css" type="text/css" rel="stylesheet"><link href="App_Themes/RTTrader/RTTrader-rtl.css" type="text/css" rel="stylesheet"></head>
 <body id="body" data-loading="true" class="ltr " loggedin="false">
     <form method="post" action="Authenticate.aspx?Redirect=%2fdownload-platform.aspx" onsubmit="javascript:return WebForm_OnSubmit();" id="FormMain">
 <div class="aspNetHidden">
@@ -181,7 +181,7 @@ return true;
                 <br>
                 <br>
 
-                There is an RUITONG announcement due to a market event/incident, please <a target="_blank" href="javascript:;">click here</a> for more details.<br>
+                There is an RT announcement due to a market event/incident, please <a target="_blank" href="javascript:;">click here</a> for more details.<br>
                 <br>
 
                 Should you require assistance, please contact our <a href="javascript:;" target="_blank">Client Services Team.</a><br>
@@ -319,8 +319,8 @@ return true;
       <div class="intro">
           <div class="header-image"></div>
           <div class="intro-content">
-              <h2>欢迎使用新的RUITONG客户门户！</h2>
-<p>我们已经听取了客户的反馈并进行了重大更改，以使您更轻松地管理RUITONG交易帐户。</p>
+              <h2>欢迎使用新的RT客户门户！</h2>
+<p>我们已经听取了客户的反馈并进行了重大更改，以使您更轻松地管理RT交易帐户。</p>
               
               <div class="flex xs-flex-row">
                 <button onclick="tour.start()" type="button" class="btn btn-primary">快速浏览</button>
@@ -359,7 +359,7 @@ return true;
                   <div class="scroller">
                       <div class="slide">
                           <h2> 1/5：我的帐户</h2> 
- <p>在这里，您将找到所有Live RUITONG交易帐户的详细信息以及各种操作，例如： </p> 
+ <p>在这里，您将找到所有Live RT交易帐户的详细信息以及各种操作，例如： </p> 
 
  <ul> 
  <li>更改您的MT4密码； </li> 
@@ -662,7 +662,7 @@ return true;
                     <div class="col-md-12 order-md-1 col-xl-6 order-xl-2 mt-2 mt-sm-0">
                         <div class="row auth_instruction">
                             <div class="info-quote">
-                               要登录客户门户，请使用您的任何RUITONG Live MT4帐户登录名和密码。
+                               要登录客户门户，请使用您的任何RT Live MT4帐户登录名和密码。
                                  
                             </div>
                         </div>
@@ -712,10 +712,10 @@ return true;
                         <br>
                         <br>                   
                         <div class="auth_link_span">
-                            <span id="litVisitorText" class="strong_label">不是RUITONG客户？</span><br>
+                            <span id="litVisitorText" class="strong_label">不是RT客户？</span><br>
                         </div>                       
                         <div class="auth_link_span">
-                            <a id="hlOpenAnAccount" href="javascript:;">现在打开RUITONG账户。</a>        
+                            <a id="hlOpenAnAccount" href="javascript:;">现在打开RT账户。</a>        
                         </div>                    
                     </div>
                 </div>
@@ -758,7 +758,7 @@ return true;
 
             
             <!--
-                We’ve been making some important enhancements behind the scene which means the RUITONGTrader client portal
+                We’ve been making some important enhancements behind the scene which means the RTTrader client portal
                 will be unavailable for approximately an hour from 1pm Sydney AEST (Dubai 7am London 4am BST). <br/>
                 If you need to fund during this time, please contact our client services team below.<br/><br/>
                 -->
@@ -944,10 +944,10 @@ function ValidatorOnSubmit() {
         
         if (isRtl) {
             console.log("Switching to rtl. Removing ltr css");
-            $('link[href$="/RUITONGTrader.css"]').remove();
+            $('link[href$="/RTTrader.css"]').remove();
         }
         else {
-            $('link[href$="/RUITONGTrader-rtl.css"]').remove();
+            $('link[href$="/RTTrader-rtl.css"]').remove();
         }
 
         $("body").removeAttr("data-loading");
@@ -955,7 +955,7 @@ function ValidatorOnSubmit() {
         //### ARABIC RTL TEST
         if (is_arabic($('#lbl_currentLang').text())) {
             $(document.body).addClass('rtl').removeClass('ltr');
-            $('head').append('<link rel="stylesheet" href="/css/RUITONGTrader_RTL_Overrides.css" type="text/css" />');
+            $('head').append('<link rel="stylesheet" href="/css/RTTrader_RTL_Overrides.css" type="text/css" />');
         } else {
             $(document.body).removeClass('rtl').addClass('ltr');
         }
